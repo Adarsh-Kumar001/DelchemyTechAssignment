@@ -14,6 +14,8 @@ A simple weather application that fetches weather data for a searched city using
 2. Create a Railway project and link it to the GitHub repository.
 3. Deploy the backend and update the deployed URL in frontend
 
+4. deployment (url)[https://backend-production-04b2.up.railway.app/]
+
 #### Frontend Deployment (Vercel)
 1. Push the frontend code to a GitHub repository.
 2. Create a Vercel project and link it to the GitHub repository.

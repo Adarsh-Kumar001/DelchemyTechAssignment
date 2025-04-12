@@ -2,7 +2,7 @@ const CityWeatherPage = async ({ params }) => {
   const { city } = params;
 
   try {
-    const res = await fetch(`http://localhost:5000/api/weather?city=${city}`, {
+    const res = await fetch(`https://backend-production-04b2.up.railway.app/api/weather?city=${city}`, {
       cache: 'no-store',
     });
 

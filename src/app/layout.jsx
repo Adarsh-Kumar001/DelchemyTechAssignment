@@ -20,17 +20,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+    <body>
     <div>
       <header className="bg-gray-800 text-white p-4">
-        <nav>
-          <Link href="/" className="mr-4">Home</Link>
-          <Link href="/about" className="mr-4">About</Link>
-          <Link href="/history" className="mr-4">History</Link>
+        <nav className="flex justify-around w-full">
+          <Link href="/" className="hover:cursor-pointer hover:text-white text-gray-300">Home</Link>
+          <Link href="/about" className="hover:cursor-pointer hover:text-white text-gray-300">About</Link>
+          <Link href="/history" className="hover:cursor-pointer hover:text-white text-gray-300">History</Link>
         </nav>
       </header>
       <main>{children}</main>
-      <footer className="bg-gray-800 text-white p-4 text-center">
+      <footer className="bg-gray-800 text-white p-4 w-full text-center fixed bottom-0">
         © 2025 Weather App
       </footer>
     </div>
